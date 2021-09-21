@@ -1,0 +1,28 @@
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 2% 2%;
+    background-color: rgb(248, 252, 252);;
+}
+
+button {
+    background-color: black;
+    color: white;
+}
+
+
+button:hover {
+    color: white;
+}
+
+.error {
+    color: red;
+}
+
+.form-control.ng-touched.ng-invalid {
+    border: 1px solid red;
+}
+
+.form-control.ng-touched.ng-valid {
+    border: 1px solid green;
+}
